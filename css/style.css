@@ -1,0 +1,606 @@
+body{
+    margin: 0 15%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+#principal{
+    overflow: hidden;
+}
+
+/*-----------------  Menu esquerda ---------------------- */
+
+.verticalMenu{
+    float:left;
+    width: 17%;
+    box-sizing: border-box;
+    position: fixed;
+    left: 17%;
+    top: 0;
+    width: 16em;
+}
+
+.meuPerfil{
+    float:left;
+    width: 17%;
+    box-sizing: border-box;
+    position: fixed;
+    left: 17%;
+    bottom: -0.5em;
+    width: 16em;
+}
+
+.meuPerfil #meuPerfil{
+    width: 220px;
+    height: 55px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+#foto-perfil{
+    border-radius: 50%;
+}
+
+.verticalMenu a{
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    margin: 20px;
+}
+.verticalMenu img{
+    width: 30px;
+}
+
+.verticalMenu svg{
+    width: 30px;
+}
+
+a .item-Menu2 img{
+    width: 40px;
+}
+
+.item-Menu{
+    overflow: hidden;
+    height: 45px;
+}
+
+.pagina-atual{
+    fill: rgb(238,75,0);
+    color:rgb(238,75,0);
+}
+
+
+.float{
+    margin-left: 10px;
+    margin-top: 7px;
+    float: left;
+}
+
+
+.div{
+    height: 40px;
+}
+
+.item-Menu .titulo {
+    margin: 12px 15px;
+}
+
+.item-Menu2 .titulo{
+    font-size: 14px;
+    margin: 11px 15px;
+}
+
+.itemMenu:hover{
+    color: #ee4b00;
+    background-color: rgba(238, 75, 0, 0.082);
+    border-radius: 30px;
+}
+
+.item-Menu:hover svg{
+    fill:rgb(238,75,0)
+}
+
+#inicio{
+    width: 192px;
+}
+
+#logo{
+    padding-top: 6px;
+    width: 52px;
+    height: 48px;
+}
+
+#explorar{
+    width: 150px;
+}
+
+#notificacoes, #salvos{
+    width: 183px;
+}
+
+#msg{
+    width: 175px;
+}
+
+#listas{
+    width: 130px;
+}
+
+#perfil{
+    width: 125px;
+}
+
+#mais{
+    width: 120px;
+}
+
+.verticalMenu #botao-tweet:hover{
+    background-color: rgb(204, 69, 7);
+}
+
+.verticalMenu #botao-tweet .titulo{
+    margin-left: 65px;
+    margin-top: 15px;
+}
+
+.verticalMenu #botao-tweet{
+    background-color: rgb(238, 75, 0);
+    color: white;
+    font-weight: bolder;
+    border-radius: 50px;
+    float: left;
+    width: 205px;
+    overflow: hidden;
+    height: 50px;
+}
+
+
+/* ---------------- Main --------------------- */
+
+#conteudo2{
+    float: left;
+    overflow: hidden;
+}
+
+main{
+    border: thin rgb(233, 231, 231) solid;
+    float: left;
+    width: 46.5%;
+    box-sizing: border-box;
+    margin: 58px 22% 0 22%;
+}
+
+#header-inicio{
+    border: thin rgb(219, 219, 219) solid;
+    float: left;
+    width: 32.55%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin: -0.1% 15.4%;
+    text-align: justify;
+    background-color: white;
+    position: fixed;
+}
+
+
+
+.bg-blue{
+    background-color: rgba(0, 0, 255, 0.103);
+}
+
+ /* --------------- Tweetar --------------- */
+
+ #foto-tweet{
+    width: 50px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.tweetar{
+    overflow: hidden;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom: 10px rgb(231, 231, 231) solid 
+}
+
+#botoes-tweet{
+    margin-top: 10px;
+}
+
+textarea{
+    padding: 10px;
+    display: inline-block;
+    resize: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: white;
+}
+
+.icones-tweet{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.icones-tweet svg{
+    margin: 10px;
+    width: 23px;
+    fill:rgba(238, 75, 0, 0.877)
+}
+
+.icones:hover{
+    background-color: #ee4b0028;
+}
+
+.icones{
+    float: left;
+    height: 43px;
+    border-radius: 100%;
+}
+
+main #botao-tweet:hover{
+    background-color: rgba(238, 75, 0, 0.82);
+}
+
+main #botao-tweet{
+    background-color: rgba(238, 75, 0, 0.397);
+    color: white;
+    font-weight: bolder;
+    border-radius: 50px;
+    float: right;
+    width: 95px;
+    overflow: hidden;
+    height: 40px;
+}
+
+main #botao-tweet .titulo {
+    margin: 11px;
+    margin-left: 18px;
+}
+
+/* --------------------- Os tweets ---------------- */
+
+.tweet{
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: thin #e7e5e4 solid;
+    overflow: hidden;
+}
+
+.tweet:hover{
+    background-color:#f0f0f0;
+}
+
+
+.perfil-tweet{
+    float: left;
+}
+
+.perfil-tweet img{
+    width: 30px;
+}
+
+
+.tweet-sem-foto{
+    overflow: hidden;
+    height: 96px;
+    width: 505px;
+}
+
+
+.tweet2{
+    overflow: hidden;
+    height: 400px;
+    width: 505px;
+}
+
+.tweet3{
+    overflow: hidden;
+    height: 200px;
+    width: 505px;
+}
+
+.tweet4{
+    overflow: hidden;
+    height: 140px;
+    width: 505px;
+}
+
+.imagem-tweet{
+    padding-top: 0px;
+    display: block;
+    border-radius: 4%;
+    background-image: url(https://pbs.twimg.com/media/EFq1I3vW4AAag4W?format=png&name=900x900);
+    background-position: center;
+    background-size: 495px;
+    height: 300px;
+    width: 495px;
+}
+
+#tweet3 svg{
+    padding: 0;
+    margin: 0;
+    margin-left: -3px;
+    width: 495px;
+    height: 80px;
+}
+
+.enquete{
+    color: gray;
+    font-size: 12px;
+}
+
+
+.o-tweet{
+    display: block;
+}
+
+.o-tweet p{
+    padding-top: 17px;
+    padding-bottom: 0;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.tweet-sem-foto .titulo{
+    padding-top: 10px;
+    border-spacing: 5px;
+    font-size: 14px;
+}
+
+.perfil-tweet{
+    padding-top:8px;
+    padding-left: 0px;
+    margin:0;
+}
+
+.perfil-tweet #foto-perfil{
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.icones-do-tweet svg{
+    width: 20px;
+    fill:rgb(129, 129, 129);
+    margin-top: 5px;
+    border-radius: 50%;  
+    padding: 5px; 
+}
+
+.icones-do-tweet .icone{
+    width: 17%;
+    margin-right: 8%;
+    overflow: hidden;
+}
+
+.icone .numero{
+    padding-top: 11px;
+    font-size: 15px;
+    color: gray;
+}
+
+#replies:hover svg{
+    fill: rgb(238, 75, 0);
+    background-color: rgb(255, 187, 155) ;
+}
+
+#replies:hover .numero{
+    color: rgb(238, 75, 0);
+}
+
+#retweets:hover svg{
+    fill: rgb(56, 180, 56);
+    background-color: rgba(98, 189, 98, 0.226);
+}
+
+#retweets:hover .numero{
+    color: rgb(56, 180, 56);
+}
+
+#likes:hover svg{
+    fill: red;
+    background-color: rgba(255, 0, 0, 0.205);
+}
+
+
+#likes:hover .numero{
+    color: red;
+}
+
+#send:hover svg{
+    fill: rgb(49, 100, 194);
+    background-color: rgba(49, 100, 194, 0.11);
+}
+
+
+/* -------------- Menu busca/ assuntos do momento -------------- */
+
+aside{
+    width: 22%;
+    position: fixed;
+    right: 14%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+aside a{
+    text-decoration: none;
+    color: rgb(138, 138, 138)
+}
+
+
+#buscar input{
+    padding-left: 23px;
+    padding-top: 3.5px;
+    font-size: 17px;
+    height: 33px;
+    width: 328px;
+    border: none;
+    background-color: #f0eae8;  
+    border-radius: 50px;
+    border: thin #f0eae8 solid;
+}
+
+#buscar input:focus{
+    outline: none;
+    background-color: white;
+    border: thin rgb(238,75,0) solid;
+}
+
+#buscar{
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+textarea{
+    outline: none;
+}
+
+
+#buscar svg{
+    padding-left: 10px;
+    padding-top:8px;
+    width: 22px;
+    fill: gray;
+}
+
+#assuntos{
+    margin-top: 20px;
+    width: 350px;
+    height: 505px;
+    border-radius: 20px;
+    background-color: #f5efed ;
+}
+
+#quem-seguir{
+    margin-top: 20px;
+    width: 352px;
+    height: 315px;
+    border-radius: 20px;
+    background-color: #f5efed ;
+}
+
+#mostrar-mais{
+    margin:0;
+    padding-top: 14px;
+    padding-bottom: 18px;
+    font-weight: normal;
+    color: #ee4b00;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#titulo{
+    padding-top: 0.2px;
+    padding-bottom: 0;
+    padding-left:20px;
+    font-size: 13px;
+    border-bottom: thin rgb(204, 204, 204) solid;
+}
+
+.assunto{
+    border-bottom: thin rgb(204,204,204) solid;
+}
+
+.assunto:hover, #mostrar-mais:hover, .sugestoes:hover{
+    background-color:#e7e5e4;
+}
+
+
+h2{
+    margin: 10 0;
+}
+
+h6{
+    margin-top: 0;
+    padding-top: 12px;
+    margin-bottom: 0;
+    padding-left: 18px;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+h5{
+    margin-top: 3px;
+    padding-left: 18px;
+    margin-bottom: 12px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+a h4{
+    margin-top: 3px;
+    margin-bottom: 0;
+    padding-left: 18px;
+    font-size: 16px;
+    color: black;
+}
+
+.sugestoes .titulo {
+    color: black;
+    margin: 12px 15px;
+    font-size: 16px;
+    margin: 11px 15px;
+}
+
+#quem-seguir img{
+    width: 45px;
+}
+
+#quem-seguir #meuPerfil{
+    width: 345px;
+    height: 63px;
+    color: black;
+    padding-top: 5.5px;
+    padding-left: 7px;
+    border-bottom: thin rgb(204,204,204) solid;
+}
+
+.verified{
+    overflow: hidden;
+}
+
+.verified svg{
+    fill: rgb(238,75,0);
+    width: 20px;
+
+}
+
+
+.sugestoes font{
+    font-weight: normal;
+}
+
+#botao-seguir:hover{
+    background-color: rgb(235, 220, 213);
+}
+
+#botao-seguir .titulo {
+    color: rgb(238,75,0);
+    margin: 6px;
+    margin-left: 17px;
+    font-size: 15.5px;
+}
+
+#botao-seguir{
+    background-color: #f5efed;
+    border:thin rgb(238,75,0) solid;
+    font-weight: bolder;
+    border-radius: 50px;
+    float: right;
+    width: 80px;
+    height: 30px;
+    margin-top: 12px;
+    margin-right: 18px;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right
+}
